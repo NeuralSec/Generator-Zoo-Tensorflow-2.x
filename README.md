@@ -1,5 +1,5 @@
 # Generator-Zoo-Tensorflow-2.x
-It is a growing pain for transfer learners working on tf2.x code. **The aim of this repo is to provide a collection of pretrained generators of various GANs for using in Tensorflow 2.x / Keras.** Welcome to contribute by including pretrained tf2.x GANs you discovered to this repo. 
+It is a growing pain for transfer learners working under tf2.x to conduct few-shot learning/tuning on pretrained GANs. **The aim of this repo is to provide a collection of pretrained generators of various GANs for using in Tensorflow 2.x / Keras.** Welcome to contribute by including pretrained tf2.x GANs you discovered to this repo. 
 
 Related repos:
 
