@@ -9,13 +9,13 @@ https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x
 
 #  Included GANs (generator only)
 
-| Method | Venue | Architecture | GC | DC | Loss | EMA |
-|:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| [**DCGAN**](https://arxiv.org/abs/1511.06434) | arXiv'15 | CNN/ResNet<sup>[[1]](#footnote_1)</sup> | N/A | N/A | Vanilla | False |
-| [**WGAN-WC**](https://arxiv.org/abs/1701.04862) | ICLR'17 |  ResNet | N/A | N/A | Wasserstein | False |
-| [**SNGAN**](https://arxiv.org/abs/1802.05957) | ICLR'18 |  ResNet | cBN | PD | Hinge | False |
-| [**BigGAN-Mod + DiffAug**](https://arxiv.org/abs/1809.11096) | ICLR'19 |  Big ResNet | cBN | PD | Hinge | True |
-| [**StyleGAN2**](https://arxiv.org/abs/1912.04958) | ICLR'19 |  Big ResNet | cBN | PD | Hinge | True |
+| Method | Venue | Architecture |
+|:-----------|:-------------:|:-------------:|
+| [**DCGAN**](https://arxiv.org/abs/1511.06434) | arXiv'15 | CNN/ResNet<sup>[[1]](#footnote_1)</sup> |
+| [**WGAN-WC**](https://arxiv.org/abs/1701.04862) | ICLR'17 |  ResNet |
+| [**SNGAN**](https://arxiv.org/abs/1802.05957) | ICLR'18 |  ResNet |
+| [**BigGAN-Mod + DiffAug**](https://arxiv.org/abs/1809.11096) | ICLR'19 |  Big ResNet |
+| [**StyleGAN2**](https://arxiv.org/abs/1912.04958) | CVPR'20 |  StyleGAN2 |
 
 ## Generators by Datasets
 ### Tiny ImageNet (64x64x3)
