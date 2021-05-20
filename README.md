@@ -30,4 +30,4 @@ https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x
 ### FFHQ (1024x1024x3)
 | Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
 |:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
-| **StyleGAn2** | https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x | N/A | N/A | N/A | N/A | [Link](https://drive.google.com/drive/folders/1unNCrGZarh5605yExX7L9nGaqSmZYoz3?usp=sharing) |
+| **StyleGAn2** | https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x | N/A | N/A | N/A | N/A | [Link](https://drive.google.com/drive/folders/1_cfyqRl4G3oW5LT6Bnrp-crmAotyTlKE?usp=sharing) |
