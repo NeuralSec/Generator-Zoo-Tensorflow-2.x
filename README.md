@@ -7,7 +7,7 @@ https://github.com/POSTECH-CVLab/PyTorch-StudioGAN
 
 https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x
 
-#  Included GANs (generator only)
+##  Included GANs (generator only)
 
 | Method | Venue | Architecture |
 |:-----------|:-------------:|:-------------:|
@@ -17,7 +17,7 @@ https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x
 | [**BigGAN-Mod + DiffAug**](https://arxiv.org/abs/1809.11096) | ICLR'19 |  Big ResNet |
 | [**StyleGAN2**](https://arxiv.org/abs/1912.04958) | CVPR'20 |  StyleGAN2 |
 
-## Generators by Dataset
+## Pretrained Generators by Dataset
 ### Tiny ImageNet (64x64x3)
 
 | Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
