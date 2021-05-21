@@ -1,5 +1,5 @@
 # Generator-Zoo-TensorFlow-2.x
-It is a growing pain for transfer learners working under TF2.x to conduct few-shot learning/tuning on pretrained GANs. Beyond the fact that some pretrained generative models can be easily found for TF1.x and torch, I am amazed by how hard it is to have some off-the-shelf generators to be used in TF2.x.
+It is a growing pain for transfer learners working under TF2.x to conduct few-shot learning/tuning on pretrained GANs. Beyond the fact that some pretrained generative models can be easily found for TF1.x and torch, I am amazed by how hard it is to have off-the-shelf generators to be used in TF2.x.
 
 **The aim of this repo is to provide a collection of pretrained generators of various GANs for Tensorflow 2.x / Keras.** Welcome to contribute by including pretrained tf2.x GANs you discovered to this repo. 
 
