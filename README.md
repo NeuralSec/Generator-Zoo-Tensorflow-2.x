@@ -21,15 +21,24 @@ https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x
 
 ## Pretrained Generators by Dataset
 ### Tiny ImageNet (64x64x3)
-
 | Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
 |:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
-| **DCGAN** | StudioGAN | 5.640 | 91.625 | 0.606 | 0.391 | [Link](https://drive.google.com/file/d/1f5Tti12gZ2lEvTQnTQND74pZNpxWqp0r/view?usp=sharing) |
-| **WGAN-WC** | StudioGAN | 9.696 | 41.454 | 0.940 | 0.735 | [Link](https://drive.google.com/file/d/1E7afAqBenJWcgcuum0FyCIjugYC68TuD/view?usp=sharing) |
+| **DCGAN** | StudioGAN | 5.640 | 91.625 | 0.606 | 0.391 | [Keras.Model](https://drive.google.com/file/d/1f5Tti12gZ2lEvTQnTQND74pZNpxWqp0r/view?usp=sharing) |
+| **WGAN-WC** | StudioGAN | 9.696 | 41.454 | 0.940 | 0.735 | [Keras.Model](https://drive.google.com/file/d/1E7afAqBenJWcgcuum0FyCIjugYC68TuD/view?usp=sharing) |
 | **SNGAN** | StudioGAN | 8.412 | 53.590 | 0.900 | 0.703 | In converting |
-| **BigGAN-Mod + DiffAug** | StudioGAN | 17.075 | 16.338 | 0.979 | 0.971 | [Link](https://drive.google.com/drive/folders/1cRcvUjGhkaZF-jK2tv6DOIKjZmhzEuE9?usp=sharing) |
+| **BigGAN-Mod + DiffAug** | StudioGAN | 17.075 | 16.338 | 0.979 | 0.971 | [Weights](https://drive.google.com/drive/folders/1cRcvUjGhkaZF-jK2tv6DOIKjZmhzEuE9?usp=sharing) |
+
+### ImageNet (128x128x3)
+| Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
+|:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
+| **SNGAN** | StudioGAN | 32.247 | 26.792 |	0.938 |	0.913 | [Keras.Model](https://drive.google.com/file/d/1p0TKswKj0sGse19ClyGr26aNJgLKKIw3/view?usp=sharing) |
 
 ### FFHQ (1024x1024x3)
 | Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
 |:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
-| **StyleGAN2** | [Orinigal Repo](https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x) | N/A | N/A | N/A | N/A | [Link](https://drive.google.com/drive/folders/1_cfyqRl4G3oW5LT6Bnrp-crmAotyTlKE?usp=sharing) |
+| **StyleGAN2** | [Orinigal Repo](https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x) | N/A | N/A | N/A | N/A | [Weights](https://drive.google.com/drive/folders/1_cfyqRl4G3oW5LT6Bnrp-crmAotyTlKE?usp=sharing) |
+
+### FFHQ (256x256x3)
+| Method | Reference | IS(⭡) | FID(⭣) | F_1/8(⭡) | F_8(⭡) | Weights / Keras.Model |
+|:-----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
+| **BigGAN** | [U-Net GAN](https://github.com/boschresearch/unetgan) | N/A | N/A | N/A | N/A | [Weights](https://drive.google.com/drive/folders/1C1jUHs3RMOP1UW5IGBcYB20jaEMO-3ls?usp=sharing) |
